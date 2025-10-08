@@ -1,3 +1,4 @@
+const { somar, subtrair, multiplicar, dividir } = require("../calculadora.js");
 QUnit.module("calculadora - testes de Soma", function () {
   QUnit.test("deve somar dois numeros positivos", function (assert) {
     assert.equal(somar(5, 3), 8, "5 + 3 deve ser 8");

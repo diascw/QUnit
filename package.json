@@ -1,5 +1,15 @@
 {
+  "name": "qunit",
+  "version": "1.0.0",
+  "description": "demo test",
+  "main": "calculadora.js",
+  "scripts": {
+    "test": "qunit" 
+  },
+  "keywords": [],
+  "author": "Wanessa Dias",
+  "license": "ISC",
   "devDependencies": {
-    "qunit": "^2.24.1"
+    "qunit": "^2.20.0"
   }
 }
